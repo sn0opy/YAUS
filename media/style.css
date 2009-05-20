@@ -1,0 +1,98 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color: #333;
+}
+
+#container {
+	margin: 0px auto;
+	width: 320px;
+	text-align: center;
+	margin-top: 300px;
+}
+
+#output {
+	background-color: #B9E2AA;
+	width: 320px;
+	color: #333;
+	padding: 20px;
+	border: 1px solid #A1A1A1;
+}
+
+#output a {
+	text-decoration: none;
+	font-size: 15pt;
+	color: #258304;
+}
+
+#output a:hover {
+	text-decoration: underline;
+}
+
+#error {
+	background-color: #EEAAAA;
+	width: 320px;
+	padding: 20px;
+	border: 1px solid #A1A1A1;
+	font-size: 15pt;
+	color: #B70000;
+}
+
+#footer {
+	font: 8pt Arial;
+	letter-spacing: 1px;
+	text-align: right;
+	color: #999;
+	margin-top: 4px;
+	margin-right: -40px;
+}
+
+#footer a {
+	color: #999;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;	
+}
+
+div#previnput {
+	position: relative;
+}
+
+div#previnput p {
+	display: none;
+	position: absolute;
+	top: 5px; 
+	right: -35px;
+}
+
+div#previnput:hover p {
+	display: inline;
+}
+
+div#previnput p a {
+	text-decoration: none;
+	font: 8pt Arial;
+	letter-spacing: 2px;
+	color: #999;
+}
+
+div#previnput p a:hover:after {
+	content: " >";
+}
+
+input {
+	width: 320px;
+	padding: 20px;
+	border: 1px solid #A1A1A1;
+	font-size: 15pt;
+	color: #777;
+}
+
+sup {
+	color: #59964F;
+}
