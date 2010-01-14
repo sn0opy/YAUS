@@ -8,13 +8,13 @@ geht es in die Welt hinaus, damit sich jeder einen eigenen Shorturl Service mach
 kann, weil es ja so wenige gibt.
 
 --- INSTALLATION
-F√ºr die Installation wird ein MySQL Server vorausgesetzt, worin alle URLs sp√§er
+Fuer die Installation wird ein MySQL Server vorausgesetzt, worin alle URLs spaeter
 gespeichert werden
 
 Zur Installation muss die "install.sql" in die Datenbank importiert werden, wodurch
-eine neue Tabelle mit dem Namen "su_urls" erstellt wird. Nachtr√glich m√ssen
-die Daten in der config.php noch ge√ndert werden, um eine Verbindung
-zur Datenbank herstellen zu k√nnen
+eine neue Tabelle mit dem Namen "su_urls" erstellt wird. Nachtraeglich muessen
+die Daten in der config.php noch geaendert werden, um eine Verbindung
+zur Datenbank herstellen zu koennen
 
 --- LIZENZ
 Dieses Werk von Sascha Ohms steht unter folgender Creative Commons Lizenz
@@ -26,9 +26,10 @@ http://creativecommons.org/licenses/by-nc-sa/3.0/de/
 
 Kurzform:
 Das Copyright im Footer, welches ein HTML Kommentar ist, muss bestehen bleiben. Alles
-andere im Script darf frei ge√ndert werden.
+andere im Script darf frei geaendert werden.
 
 Das Script darf nicht kommerziell genutzt werden. Darf also nicht verkauft werden. 
 
 Bedeutet, dass dieses Script ausschliesslich unter gleichen Bedingungen weitergegeben
 werden darf!
+

@@ -1,2 +1,11 @@
-﻿20.05.2009 Sascha Ohms
-	* Relase - let's make Party yay!
+﻿> 14.01.2010 Sascha Ohms
+	* Cleanup
+	* Changed LinkIDs from decimal to base36 [a-z0-9]
+	* Changed comment language from DE to EN
+	* Removed german umlaute from README file
+	* Added a few more comments to the code
+	* HINT: YAUS2 will be out soon
+
+> 20.05.2009 Sascha Ohms
+	* Release - let's make Party yay!
+

@@ -46,6 +46,10 @@ class db {
 		$this->id = mysql_insert_id();
 		return $this->id;
 	}
+	
+	public function escape($param) {
+		return mysql_real_escape_string($param);
+	}
 }
 	
 ?>
