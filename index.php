@@ -14,7 +14,7 @@ if(isset($_GET['add'])) {
 		$url = mysql_real_escape_string($_POST['url']);
 
 		// Get server url
-		$server = $_SERVER['HTTP_HOST'].dirname($_SERVER['REQUEST_URI'];
+		$server = $_SERVER['HTTP_HOST'].dirname($_SERVER['REQUEST_URI']);
 		$serverurl = (dirname($_SERVER['REQUEST_URI']) == "/") ? $server : $server."/";
 				
 		$db->query('SELECT linkID, linkURL FROM `su_urls` WHERE linkURL = "'.$url.'"');		
