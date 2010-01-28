@@ -24,7 +24,7 @@ if(isset($_GET['add'])) {
 		} else {
 			if(ereg("((https?|ftp):((//)|(\\\\))+[\w\d:#@%/;$()~_?\+-=\\\.&]*)" , $url) && $linkID != "http://" && eregi($serverurl, $url) == FALSE) {
 				$db->query('INSERT INTO `su_urls` SET linkURL = "'.$url. '"');
-				$linkID = base36($db->insertID(), true); # converting linkID to an base36 decoded hash
+				$linkID = base36($db->insertID(), true); # converting linkID to a base36 decoded hash
 				$error = false;
 			} else {
 				error('URL nicht valide');
